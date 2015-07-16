@@ -1,5 +1,12 @@
 # Ruby Variable Types and Their Scope
 
+## Objectives
+
+1. Learn about the different types of variables in Ruby
+2. Learn about the scoping of these variable types
+
+## Introduction
+
 Variables hold data of any type in memory. In Ruby, there are a few different variable types we'll be going over. Note that here "type" does not mean "data type". Unlike in languages such as C, C++, and Objective-C, data types in Ruby do not need to be explicitly declared when variables are assigned.
 
 We're going to focus here on three variable types. There are five total that are used in Ruby, but we will focus on the other two later when we learn about Classes and Object Orientation.
@@ -37,11 +44,11 @@ Global variables should be used **very** sparingly, if at all. The concern with 
 
 ## Constants
 
-Constants are written either in all UPPERCASE or Capitalized. They have a global scope when defined globally, and local scope when defined within classes and modules. Constants cannot be defined within methods. When constants are initialized, they cannot be reassigned. For example, this would result in an error:
+Constants are written either in all UPPERCASE or Capitalized. They have a global scope when defined globally, and local scope when defined within classes and modules. Constants cannot be defined within methods. When constants are initialized, they should not be reassigned. Attempting to do so will result in a warning:
 
 ```ruby
 CONSTANT = "I'm initialized!"
-CONSTANT = "I can't be reassigned!"
+CONSTANT = "You shouldn't reassign me!"
 
 => warning: already initialized constant CONSTANT
 ```
