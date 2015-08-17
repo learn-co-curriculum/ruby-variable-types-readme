@@ -13,7 +13,7 @@ We're going to focus here on three variable types. There are five total that are
 
 ## Local Variables
 
-You should already be familiar with declaring local variables. They're written most commonly as lowercase words, or sometimes you might see developers declare them with an underscore (like `_this`). Most commonly, they look like this:
+You should already be familiar with declaring local variables. They're written most commonly as lowercase words, or sometimes you might see developers declare them with an underscore (like `_this`––DON'T DO THIS, btw). Most commonly, they look like this:
 
 ```ruby
 languages = ["Ruby", "JavaScript", "C", "Python"]
