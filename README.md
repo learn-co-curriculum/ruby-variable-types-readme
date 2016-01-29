@@ -55,4 +55,4 @@ CONSTANT = "You shouldn't reassign me!"
 
 You'll most often see constants used in class naming, or to hold data that will never need modification, like an array of words that will never be added to, or a hash of word definitions.
 
-<a href='https://learn.co/lessons/ruby-variable-types-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-variable-types-readme' title='Ruby Variable Types and Their Scope'>Ruby Variable Types and Their Scope</a> on Learn.co and start learning to code for free.</p>
